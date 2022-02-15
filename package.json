@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest",
+    "test:cover": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "babel-loader": "^8.0.0-beta.0",
+    "body-parser": "^1.19.0",
+    "cluster": "^0.7.7",
+    "jest": "^24.8.0",
+    "joi": "^14.3.1",
+    "mock-express-response": "^0.2.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
